@@ -1,0 +1,11 @@
+def verifica_consoantes (letras):
+	soma = 0
+	for letra in letras:def verifica_consoantes (letras):
+	soma = 0
+	for letra in letras:
+		if letra not in 'aeiou':
+			soma += 1
+		return soma
+		if letra not in 'aeiou':
+			soma += 1
+		return soma
