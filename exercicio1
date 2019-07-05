@@ -1,0 +1,6 @@
+def media_notas (notas):
+	soma = 0
+	for nota in notas:
+		soma += nota
+	media = soma / len(notas)
+	return media
