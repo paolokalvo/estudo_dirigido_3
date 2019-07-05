@@ -1,0 +1,4 @@
+def mostra_ordem_inversa (numeros):
+	print("Números: ", numeros, end=' ')
+	for numero in reversed(numeros):
+		print(numero, end=' ')
