@@ -1,0 +1,7 @@
+def mostra_notas (notas):
+	soma = 0
+	for nota in notas:
+		soma += notas
+	media = soma / len(notas)
+	
+	print(media)
