@@ -1,0 +1,4 @@
+def mostra_numeros (numeros):
+	print('\n %d números: ' %len(numeros), end=' ')
+	for numero in numeros:
+		print(numero, end=' ')
